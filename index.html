@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mario Magdy</title>
+		<link
+			rel="stylesheet"
+			href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+		/>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<link rel="stylesheet" href="dist/style.css" />
+	</head>
+	<body>
+		<div class="loader">
+			<div class="spinner">
+				<div class="dot1"></div>
+				<div class="dot2"></div>
+			</div>
+		</div>
+		<main>
+			<section class="left-column" style="transform: translateX(-300px); transition:all .8s">
+				<!-- Start personal -->
+				<section class="personal-info">
+					<div class="img-wrapper">
+						<img src="images/Me.png" id="myImg" alt="" />
+						<!-- <canvas id="canvas"></canvas> -->
+					</div>
+
+					<h4>Mario Yonan</h4>
+					<span class="job">Full stack web developer</span>
+
+					<div class="contact">
+						<div class="info-part">
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2f363d" stroke-width="2">
+								<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+								<polyline points="22,6 12,13 2,6"></polyline>
+							</svg>
+							<span class="content">mario.yonan.work@gmail.com</span>
+						</div>
+						<!-- <br> -->
+						<div class="info-part">
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2f363d" stroke-width="2">
+								<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+							</svg>
+							<span class="content">01098090927</span>
+						</div>
+					</div>
+
+					<article>
+						Self-motivated developer, who is willing to learn and create
+						outstanding web applications, some more info...
+					</article>
+				</section>
+
+
+				<!-- Start exp -->
+				<section class="experiences">
+					<h2>Education</h2>
+					<div>
+	
+						<div class="experience">
+							<div class="img-wrapper">
+								<img src="images/iti-logo.png" alt="">
+							</div>
+							<div class="exp-info">
+								<div class="subheading">January 2021 - current</div>
+								<h4>Fullstack using MEARN</h4>
+								<p>3 months degree at ITI</p>
+							</div>
+						</div>
+
+						<div class="experience">
+							<div class="img-wrapper">
+								<img src="images/university.gif" alt="">
+							</div>
+							<div class="exp-info">
+								<div class="subheading">2015 - 2019</div>
+								<h4>Bachelor's of science</h4>
+								<p>Major of Microbiology</p>
+							</div>
+						</div>
+	
+					</div>
+				</section>
+
+
+				<!-- start hobbies -->
+				<section class="hobbies">
+					<h2>Hobbies</h2>
+
+					<div class="hobby">
+						<div class="img-wrapper">
+							<img src="images/gaming.jpg" alt="">
+						</div>
+						<h4>Gaming</h4>
+						<p>Do you play FIFA?</p>
+					</div>
+					
+					<div class="hobby">
+						<div class="img-wrapper">
+							<img src="images/travelling.jpeg" alt="">
+						</div>
+						<h4>Travelling</h4>
+						<p>What's the furthest city you've been to?</p>
+					</div>
+
+					<div class="hobby">
+						<div class="img-wrapper">
+							<img src="images/chess.jpg" alt="">
+						</div>
+						<h4>Chess</h4>
+						<p>How many openings do you use?</p>
+					</div>
+				</section>
+			</section>
+
+			<!-- right column -->
+			<section class="right-column"  style="transform: translateX(300px); transition:all .8s">
+
+				<!-- skills -->
+				<section class="skills">
+
+					<div class="skill">
+						<h2>Front end</h2>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>HTML5</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="80"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>CSS</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="75"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>Javascript</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="70"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>jQuery</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="90"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>Sass</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="70"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>Bootstrap</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="75"></div>
+							</div>
+						</div>
+
+						
+					</div>
+					<div class="skill">
+						<h2>Design</h2>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>Photoshop</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="60"></div>
+							</div>
+						</div>
+
+						<div class="single-skill">
+							<div class="name">
+								<span>Figma</span>
+							</div>
+							<div class="percentage">
+								<div class="myBar" data-per="75"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<!-- start projects -->
+				<div class="heading">
+					<h2>Projects</h2>
+				</div>
+				<section class="projects">
+
+					<article class="project">
+						<div class="img-wrapper">
+							<img src="https://mario130.github.io/Portfolio/dist/images/website-4.webp" alt="">
+						</div>
+						<div class="project-details">
+							<div class="tags">
+								<!-- <span>#HTML</span>
+								<span>#CSS</span>
+								<span>#JS</span> -->
+								<span>#Sass</span>
+								<span>#Bootstrap</span>
+								<span>#Vue</span>
+								<span>#Firebase</span>
+							</div>
+							<h4>Tick do</h4>
+							<p>Mini project for organizing tasks</p>
+							<div class="btns">
+								<a href="https://tick-do.web.app/profile">Demo</a>
+								<a href="#">Code</a>
+							</div>
+						</div>
+					</article>
+					
+					<article class="project">
+						<div class="img-wrapper">
+							<img src="https://mario130.github.io/Portfolio/dist/images/website-1.webp" alt="">
+						</div>
+						<div class="project-details">
+							<div class="tags">
+								<!-- <span>#HTML</span>
+								<span>#CSS</span>
+								<span>#JS</span> -->
+								<span>#Pug</span>
+								<span>#Sass</span>
+								<span>#jQuery</span>
+							</div>
+							<h4>Tween 20</h4>
+							<p>Project for housing company</p>
+							<div class="btns">
+								<a href="https://mario130.github.io/practice-a/dist/homepage.html">Demo</a>
+								<a href="#">Code</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="project">
+						<div class="img-wrapper">
+							<img src="https://mario130.github.io/Portfolio/dist/images/website-3.webp" alt="">
+						</div>
+						<div class="project-details">
+							<div class="tags">
+								<span>#HTML</span>
+								<span>#CSS</span>
+								<span>#JS</span>
+							</div>
+							<h4>newzy.</h4>
+							<p>Website for the latest daily news</p>
+							<div class="btns">
+								<a href="https://mario130.github.io/Project-5-NewsWebsite/">Demo</a>
+								<a href="#">Code</a>
+							</div>
+						</div>
+					</article>
+
+				</section>
+
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
