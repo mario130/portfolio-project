@@ -19,21 +19,21 @@ $(document).ready(function(){
     $(this).find('.tags').slideUp()
   })
 
-  // // canvas
-  // var myImg = document.getElementById('myImg')
-  // var canvas = document.getElementById('canvas')
-  // var ctx = canvas.getContext('2d')
-  // myImg.style.display = 'none'
+  // canvas
+  var myImg = document.getElementById('myImg')
+  var canvas = document.getElementById('canvas')
+  var ctx = canvas.getContext('2d')
+  myImg.style.display = 'none'
 
   
-  // var imageOfMe = new Image();
-  // imageOfMe.src = "images/Me.png"
+  var imageOfMe = new Image();
+  imageOfMe.src = "images/Me.png"
   
-  // imageOfMe.onload = function(){
-  //   canvas.height = imageOfMe.height;
-  //   canvas.width = imageOfMe.width;
-  //   ctx.drawImage(imageOfMe,0,0)
+  imageOfMe.onload = function(){
+    canvas.height = imageOfMe.height;
+    canvas.width = imageOfMe.width;
+    ctx.drawImage(imageOfMe,0,0)
     
-  // }
+  }
 
 })
