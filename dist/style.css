@@ -380,6 +380,9 @@ main .right-column {
   .project {
     flex-direction: column;
   }
+  .project .tags {
+    margin-top: 8px;
+  }
   .project .img-wrapper {
     width: 100%;
   }

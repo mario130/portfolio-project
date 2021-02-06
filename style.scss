@@ -394,6 +394,9 @@ main{
   }
   @media screen and (max-width: 900px) {
     flex-direction: column;
+    .tags {
+      margin-top: 8px;
+    }
     .img-wrapper{
       width: 100%;
     }
