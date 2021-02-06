@@ -15,8 +15,10 @@ $(document).ready(function(){
 
   $('.project').hover(function(){
     $(this).find('.tags').slideDown()
+    $(this).find('.btns').fadeIn()
   }, function(){
     $(this).find('.tags').slideUp()
+    $(this).find('.btns').fadeOut()
   })
 
   // canvas
@@ -24,8 +26,6 @@ $(document).ready(function(){
   var canvas = document.getElementById('canvas')
   var ctx = canvas.getContext('2d')
   myImg.style.display = 'none'
-
-  
   var imageOfMe = new Image();
   imageOfMe.src = "images/Me.png"
   

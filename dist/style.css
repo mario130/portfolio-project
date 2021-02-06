@@ -348,6 +348,9 @@ main .right-column {
   font-size: 14px;
   color: #828282;
 }
+.project .project-details .btns {
+  display: none;
+}
 .project .project-details .btns a {
   padding: 10px 30px;
   font-size: 16px;

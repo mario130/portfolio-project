@@ -17,8 +17,10 @@ $(document).ready(function () {
 
   $('.project').hover(function () {
     $(this).find('.tags').slideDown();
+    $(this).find('.btns').fadeIn();
   }, function () {
     $(this).find('.tags').slideUp();
+    $(this).find('.btns').fadeOut();
   }); // canvas
 
   var myImg = document.getElementById('myImg');
